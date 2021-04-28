@@ -1,0 +1,101 @@
+
+
+#textLogin{
+  margin-bottom: 4px;
+  margin-top: 4px;
+  align-items: center;
+  color:rgb(6, 28, 46);
+  font-family: 'Segoe UI',sans-serif;
+}
+.field:hover {
+  
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.fb {
+  display: flex;
+  flex-wrap: wrap;
+}
+.body{
+  background: url(help.jpg) repeat;
+  display: grid;
+  grid-template-rows: 30% 75%;
+  height: 100vh;
+}
+#imageLogin{
+  height:120%;
+}
+#logo{
+  margin-left: 0;
+  
+
+}
+.signup-container {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translateY(-50%);
+
+  align-items: center;
+  width: 600px;
+  border-radius: 3px;
+  fill-opacity: 0.5;
+  box-shadow: 0px 3px 7px rgba(0,0,0,.25);
+}
+input[type=text] {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+}
+
+.form-control {
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+
+}
+.fb {
+  display: flex;
+  flex-wrap: wrap;
+}
+.body{
+  display: grid; 
+  grid-template-rows: 35% 65%;
+  height: 100vh;
+}
+#logo{
+  margin-left: 0;
+}
+input[type=text]{
+  width:100%;
+  padding:20px;
+  margin:5px;
+  border-radius:2px;
+  font-family:inherit;
+}
+/* input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} */
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  padding: 5px 0;
+  background: transparent;
+ 
+
+}
+
